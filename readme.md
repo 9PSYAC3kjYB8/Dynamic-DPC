@@ -22,8 +22,11 @@
 * We used Ubuntu 18.04LTS.
 
 ## Results
-* In app-deper, edmstream, and semi-static, there is `result` directory.
+* In app-deper and edmstream, there is `result` directory.
+   * For semi-static, create `result` directory.
 * For each dataset, the experimental result is provided in the corresponding directory.
+   * Dataset IDs of Gas, Household, PAMAP2, and Mirai are 3, 1, 2, and 4, respectively.
+   * Create `result/1-household/stat`, `result/2-pamap2/stat`, and `result/3-gas/stat`.
 * In addition, we have `stat` directory that will have a statistics file for local density and dependent point.
 This is used for calculating accuracy.
 * The exact results are in `result` directory.
