@@ -19,17 +19,17 @@
 ## How to compile
 * For App-deper case: `g++ -O3 -o app-deper.out main.cpp --std=c++14 -fopenmp -Wall`
 * .out file name can be arbitrary.
-* We used Ubuntu 18.04LTS.
+* We used Ubuntu 18.04 LTS.
 
 ## Results
 * In app-deper and edmstream, there is `result` directory.
    * For semi-static, create `result` directory.
 * For each dataset, the experimental result is provided in the corresponding directory.
    * Dataset IDs of Gas, Household, PAMAP2, and Mirai are 3, 1, 2, and 4, respectively.
-   * Create `result/1-household/stat`, `result/2-pamap2/stat`, and `result/3-gas/stat`.
-* In addition, we have `stat` directory that will have a statistics file for local density and dependent point.
-This is used for calculating accuracy.
-* The exact results are in `result` directory.
+   * Create `result/1-household/stat`, `result/2-pamap2/stat`, and `result/3-gas/stat`, for each algorithm.
+   * `stat` directory will have a statistics file for local density and dependent point. This is used for calculating accuracy.
+* The exact result of Mirai is in `result` directory.
+  * The results on the other datasets cannot be uploaded due to size constraint.
 * Codes in `labeling` calculate Rand index and provide clustering labels.
     * For app-deper (edmsteream), set flag = 2 (1).
 * We calculated NMI by using scikit-learn library.
