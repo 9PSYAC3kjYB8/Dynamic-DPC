@@ -10,7 +10,7 @@
 ## Datasets
 * [Gas](https://archive.ics.uci.edu/ml/datasets/Gas+sensor+array+under+dynamic+gas+mixtures)
 * [Household](https://archive.ics.uci.edu/ml/datasets/Individual+household+electric+power+consumption)
-* [PAMAPA2](https://archive.ics.uci.edu/ml/datasets/PAMAP2+Physical+Activity+Monitoring)
+* [PAMAP2](https://archive.ics.uci.edu/ml/datasets/PAMAP2+Physical+Activity+Monitoring)
 * [Mirai](https://archive.ics.uci.edu/ml/datasets/Kitsune+Network+Attack+Dataset)
 
 ## Parameter setting
