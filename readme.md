@@ -1,5 +1,5 @@
 ## Directories
-* **app-deper**: source codes of App-deper.
+* **app-deper**: source codes of our algorithm (AMD-DPC).
 * **dataset**: .txt files of datasets used.
 * **edmstream**: source codes of EDMStream.
 * **exact**: contains stat files of local density and depedent object.
@@ -17,7 +17,7 @@
 * See readme.md in parameter directory
 
 ## How to compile
-* For App-deper case: `g++ -O3 -o app-deper.out main.cpp --std=c++14 -fopenmp -Wall`
+* For app-deper case: `g++ -O3 -o app-deper.out main.cpp --std=c++14 -fopenmp -Wall`
 * .out file name can be arbitrary.
 * We used Ubuntu 18.04 LTS.
 
